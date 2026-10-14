@@ -1044,8 +1044,7 @@ diff = '''
 
 [rules.TRF060]
 description = "A sub-model call must not switch on every hidden state when the caller only reads some of them by index."
-# Enable once huggingface/transformers#49594 lands `hidden_states_to_capture` on main.
-default_enabled = false
+default_enabled = true
 allowlist_models = []
 
 [rules.TRF060.explanation]
